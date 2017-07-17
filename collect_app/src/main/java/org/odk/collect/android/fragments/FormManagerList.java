@@ -239,23 +239,22 @@ public class FormManagerList extends FormListFragment implements DiskSyncListene
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.delete_button:
-                logger.logAction(this, "deleteButton", Integer.toString(getCheckedCount()));
+        int i = v.getId();
+        if (i == R.id.delete_button) {
+            logger.logAction(this, "deleteButton", Integer.toString(getCheckedCount()));
 
-                if (areCheckedItems()) {
-                    createDeleteFormsDialog();
-                } else {
-                    ToastUtils.showShortToast(R.string.noselect_error);
-                }
-                break;
+            if (areCheckedItems()) {
+                createDeleteFormsDialog();
+            } else {
+                ToastUtils.showShortToast(R.string.noselect_error);
+            }
 
-            case R.id.toggle_button:
-                ListView lv = getListView();
-                boolean allChecked = toggleChecked(lv);
-                toggleButtonLabel(toggleButton, getListView());
-                deleteButton.setEnabled(allChecked);
-                break;
+        } else if (i == R.id.toggle_button) {
+            ListView lv = getListView();
+            boolean allChecked = toggleChecked(lv);
+            toggleButtonLabel(toggleButton, getListView());
+            deleteButton.setEnabled(allChecked);
+
         }
     }
 

@@ -428,38 +428,38 @@ public class MainMenuActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_about:
-                Collect.getInstance()
-                        .getActivityLogger()
-                        .logAction(this, "onOptionsItemSelected",
-                                "MENU_ABOUT");
-                Intent aboutIntent = new Intent(this, AboutPreferencesActivity.class);
-                startActivity(aboutIntent);
-                return true;
-            case R.id.menu_general_preferences:
-                Collect.getInstance()
-                        .getActivityLogger()
-                        .logAction(this, "onOptionsItemSelected",
-                                "MENU_PREFERENCES");
-                Intent ig = new Intent(this, PreferencesActivity.class);
-                startActivity(ig);
-                return true;
-            case R.id.menu_admin_preferences:
+        int i1 = item.getItemId();
+        if (i1 == R.id.menu_about) {
+            Collect.getInstance()
+                    .getActivityLogger()
+                    .logAction(this, "onOptionsItemSelected",
+                            "MENU_ABOUT");
+            Intent aboutIntent = new Intent(this, AboutPreferencesActivity.class);
+            startActivity(aboutIntent);
+            return true;
+        } else if (i1 == R.id.menu_general_preferences) {
+            Collect.getInstance()
+                    .getActivityLogger()
+                    .logAction(this, "onOptionsItemSelected",
+                            "MENU_PREFERENCES");
+            Intent ig = new Intent(this, PreferencesActivity.class);
+            startActivity(ig);
+            return true;
+        } else if (i1 == R.id.menu_admin_preferences) {
+            Collect.getInstance().getActivityLogger()
+                    .logAction(this, "onOptionsItemSelected", "MENU_ADMIN");
+            String pw = adminPreferences.getString(
+                    AdminKeys.KEY_ADMIN_PW, "");
+            if ("".equalsIgnoreCase(pw)) {
+                Intent i = new Intent(getApplicationContext(),
+                        AdminPreferencesActivity.class);
+                startActivity(i);
+            } else {
+                showDialog(PASSWORD_DIALOG);
                 Collect.getInstance().getActivityLogger()
-                        .logAction(this, "onOptionsItemSelected", "MENU_ADMIN");
-                String pw = adminPreferences.getString(
-                        AdminKeys.KEY_ADMIN_PW, "");
-                if ("".equalsIgnoreCase(pw)) {
-                    Intent i = new Intent(getApplicationContext(),
-                            AdminPreferencesActivity.class);
-                    startActivity(i);
-                } else {
-                    showDialog(PASSWORD_DIALOG);
-                    Collect.getInstance().getActivityLogger()
-                            .logAction(this, "createAdminPasswordDialog", "show");
-                }
-                return true;
+                        .logAction(this, "createAdminPasswordDialog", "show");
+            }
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

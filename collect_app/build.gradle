@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'checkstyle'
 
 import com.android.ddmlib.DdmPreferences
@@ -66,9 +66,9 @@ android {
     buildToolsVersion('25.0.2')
 
     defaultConfig {
-        applicationId('org.odk.collect.android')
-        minSdkVersion(16)
-        targetSdkVersion(22)
+        //applicationId('org.odk.collect.android')
+        minSdkVersion(19)
+        targetSdkVersion(25)
         versionCode LEGACY_BUILD_NUMBER_OFFSET + getMasterCommitCount()
         versionName getVersionName()
         testInstrumentationRunner('android.support.test.runner.AndroidJUnitRunner')
@@ -91,7 +91,7 @@ android {
             if (secrets.getProperty('RELEASE_STORE_FILE')) {
                 signingConfig signingConfigs.release
             }
-            minifyEnabled(true)
+            minifyEnabled(false)
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
         debug {
@@ -102,12 +102,12 @@ android {
     }
 
     // https://stackoverflow.com/a/27119543/152938
-    applicationVariants.all { variant ->
+    /*applicationVariants.all { variant ->
         variant.outputs.each { output ->
             def file = output.outputFile
             output.outputFile = new File(file.parent, file.name.replace("_app","").replace(".apk", "-" + defaultConfig.versionName + ".apk"))
         }
-    }
+    }*/
 
     packagingOptions {
         // Pick first occurrence of any files that cause conflicts, as defined

@@ -240,23 +240,22 @@ public class DataManagerList extends InstanceListFragment
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.delete_button:
-                int checkedItemCount = getCheckedCount();
-                logger.logAction(this, "deleteButton", Integer.toString(checkedItemCount));
-                if (checkedItemCount > 0) {
-                    createDeleteInstancesDialog();
-                } else {
-                    ToastUtils.showShortToast(R.string.noselect_error);
-                }
-                break;
+        int i = v.getId();
+        if (i == R.id.delete_button) {
+            int checkedItemCount = getCheckedCount();
+            logger.logAction(this, "deleteButton", Integer.toString(checkedItemCount));
+            if (checkedItemCount > 0) {
+                createDeleteInstancesDialog();
+            } else {
+                ToastUtils.showShortToast(R.string.noselect_error);
+            }
 
-            case R.id.toggle_button:
-                ListView lv = getListView();
-                boolean allChecked = toggleChecked(lv);
-                toggleButtonLabel(toggleButton, getListView());
-                deleteButton.setEnabled(allChecked);
-                break;
+        } else if (i == R.id.toggle_button) {
+            ListView lv = getListView();
+            boolean allChecked = toggleChecked(lv);
+            toggleButtonLabel(toggleButton, getListView());
+            deleteButton.setEnabled(allChecked);
+
         }
     }
 

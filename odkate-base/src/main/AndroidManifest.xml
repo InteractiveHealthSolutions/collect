@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ihs.odkate.base">
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:supportsRtl="true"  android:theme="@style/AppTheme.Base">
+
+        <!-- To prevent launching MainActivity of ODK-collect this is needed-->
+        <activity
+            android:name="org.odk.collect.android.activities.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog"
+            tools:node="remove">
+        </activity>
+    </application>
+
+</manifest>

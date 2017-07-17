@@ -719,37 +719,34 @@ public class GoogleDriveActivity extends AppCompatActivity implements
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.root_button:
-                getResultsFromApi();
-                break;
+        int i = v.getId();
+        if (i == R.id.root_button) {
+            getResultsFromApi();
 
-            case R.id.back_button:
-                backButton.setEnabled(false);
-                rootButton.setEnabled(false);
-                downloadButton.setEnabled(false);
-                toDownload.clear();
-                if (isDeviceOnline()) {
-                    if (folderIdStack.empty()) {
-                        parentId = ROOT_KEY;
-                    } else {
-                        parentId = folderIdStack.pop();
-                    }
-                    listFiles(parentId);
-                    currentPath.pop();
-                    // }
+        } else if (i == R.id.back_button) {
+            backButton.setEnabled(false);
+            rootButton.setEnabled(false);
+            downloadButton.setEnabled(false);
+            toDownload.clear();
+            if (isDeviceOnline()) {
+                if (folderIdStack.empty()) {
+                    parentId = ROOT_KEY;
                 } else {
-                    createAlertDialog(getString(R.string.no_connection));
+                    parentId = folderIdStack.pop();
                 }
-                break;
+                listFiles(parentId);
+                currentPath.pop();
+                // }
+            } else {
+                createAlertDialog(getString(R.string.no_connection));
+            }
 
-            case R.id.download_button:
-                getFiles();
-                break;
+        } else if (i == R.id.download_button) {
+            getFiles();
 
-            case R.id.search_button:
-                executeSearch();
-                break;
+        } else if (i == R.id.search_button) {
+            executeSearch();
+
         }
     }
 

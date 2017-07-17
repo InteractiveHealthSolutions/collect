@@ -134,54 +134,52 @@ public class ShowQRCodeFragment extends Fragment implements View.OnClickListener
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.btnScan:
-                IntentIntegrator integrator = IntentIntegrator.forFragment(this);
-                integrator
-                        .setCaptureActivity(ScannerWithFlashlightActivity.class)
-                        .setBeepEnabled(true)
-                        .setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES)
-                        .setOrientationLocked(false)
-                        .setPrompt(getString(R.string.qrcode_scanner_prompt))
-                        .initiateScan();
-                break;
+        int i = v.getId();
+        if (i == R.id.btnScan) {
+            IntentIntegrator integrator = IntentIntegrator.forFragment(this);
+            integrator
+                    .setCaptureActivity(ScannerWithFlashlightActivity.class)
+                    .setBeepEnabled(true)
+                    .setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES)
+                    .setOrientationLocked(false)
+                    .setPrompt(getString(R.string.qrcode_scanner_prompt))
+                    .initiateScan();
 
-            case R.id.btnSelect:
-                Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
-                photoPickerIntent.setType("image/*");
-                startActivityForResult(photoPickerIntent, SELECT_PHOTO);
-                break;
+        } else if (i == R.id.btnSelect) {
+            Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
+            photoPickerIntent.setType("image/*");
+            startActivityForResult(photoPickerIntent, SELECT_PHOTO);
 
-            case R.id.edit_qrcode:
-                String[] items = new String[]{
-                        getString(R.string.admin_password),
-                        getString(R.string.server_password)};
+        } else if (i == R.id.edit_qrcode) {
+            String[] items = new String[]{
+                    getString(R.string.admin_password),
+                    getString(R.string.server_password)};
 
-                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity())
-                        .setTitle(R.string.include_password_dialog)
-                        .setMultiChoiceItems(items, checkedItems, new DialogInterface.OnMultiChoiceClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which, boolean isChecked) {
-                                checkedItems[which] = isChecked;
-                            }
-                        })
-                        .setCancelable(false)
-                        .setPositiveButton(R.string.generate, new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                generateCode();
-                                dialog.dismiss();
-                            }
-                        })
-                        .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                            }
-                        });
-                AlertDialog dialog = builder.create();
-                dialog.show();
-                break;
+            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity())
+                    .setTitle(R.string.include_password_dialog)
+                    .setMultiChoiceItems(items, checkedItems, new DialogInterface.OnMultiChoiceClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which, boolean isChecked) {
+                            checkedItems[which] = isChecked;
+                        }
+                    })
+                    .setCancelable(false)
+                    .setPositiveButton(R.string.generate, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            generateCode();
+                            dialog.dismiss();
+                        }
+                    })
+                    .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+            AlertDialog dialog = builder.create();
+            dialog.show();
+
         }
     }
 
@@ -256,29 +254,29 @@ public class ShowQRCodeFragment extends Fragment implements View.OnClickListener
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_item_share:
-                getActivity().startActivity(Intent.createChooser(shareIntent, getString(R.string.share_qrcode)));
-                return true;
-            case R.id.menu_save_preferences:
-                File writeDir = new File(Collect.SETTINGS);
-                if (!writeDir.exists()) {
-                    if (!writeDir.mkdirs()) {
-                        ToastUtils.showShortToast("Error creating directory "
-                                + writeDir.getAbsolutePath());
-                        return false;
-                    }
+        int i = item.getItemId();
+        if (i == R.id.menu_item_share) {
+            getActivity().startActivity(Intent.createChooser(shareIntent, getString(R.string.share_qrcode)));
+            return true;
+        } else if (i == R.id.menu_save_preferences) {
+            File writeDir = new File(Collect.SETTINGS);
+            if (!writeDir.exists()) {
+                if (!writeDir.mkdirs()) {
+                    ToastUtils.showShortToast("Error creating directory "
+                            + writeDir.getAbsolutePath());
+                    return false;
                 }
+            }
 
-                File dst = new File(writeDir.getAbsolutePath() + "/collect.settings");
-                boolean success = AdminPreferencesActivity.saveSharedPreferencesToFile(dst, getActivity());
-                if (success) {
-                    ToastUtils.showLongToast("Settings successfully written to "
-                            + dst.getAbsolutePath());
-                } else {
-                    ToastUtils.showLongToast("Error writing settings to " + dst.getAbsolutePath());
-                }
-                return true;
+            File dst = new File(writeDir.getAbsolutePath() + "/collect.settings");
+            boolean success = AdminPreferencesActivity.saveSharedPreferencesToFile(dst, getActivity());
+            if (success) {
+                ToastUtils.showLongToast("Settings successfully written to "
+                        + dst.getAbsolutePath());
+            } else {
+                ToastUtils.showLongToast("Error writing settings to " + dst.getAbsolutePath());
+            }
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

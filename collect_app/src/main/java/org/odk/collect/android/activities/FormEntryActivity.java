@@ -908,45 +908,45 @@ public class FormEntryActivity extends AppCompatActivity implements AnimationLis
     public boolean onOptionsItemSelected(MenuItem item) {
         FormController formController = Collect.getInstance()
                 .getFormController();
-        switch (item.getItemId()) {
-            case R.id.menu_languages:
-                Collect.getInstance()
-                        .getActivityLogger()
-                        .logInstanceAction(this, "onOptionsItemSelected",
-                                "MENU_LANGUAGES");
-                createLanguageDialog();
-                return true;
-            case R.id.menu_save:
-                Collect.getInstance()
-                        .getActivityLogger()
-                        .logInstanceAction(this, "onOptionsItemSelected",
-                                "MENU_SAVE");
-                // don't exit
-                saveDataToDisk(DO_NOT_EXIT, isInstanceComplete(false), null);
-                return true;
-            case R.id.menu_goto:
-                Collect.getInstance()
-                        .getActivityLogger()
-                        .logInstanceAction(this, "onOptionsItemSelected",
-                                "MENU_HIERARCHY_VIEW");
-                if (formController.currentPromptIsQuestion()) {
-                    saveAnswersForCurrentScreen(DO_NOT_EVALUATE_CONSTRAINTS);
-                }
+        int i1 = item.getItemId();
+        if (i1 == R.id.menu_languages) {
+            Collect.getInstance()
+                    .getActivityLogger()
+                    .logInstanceAction(this, "onOptionsItemSelected",
+                            "MENU_LANGUAGES");
+            createLanguageDialog();
+            return true;
+        } else if (i1 == R.id.menu_save) {
+            Collect.getInstance()
+                    .getActivityLogger()
+                    .logInstanceAction(this, "onOptionsItemSelected",
+                            "MENU_SAVE");
+            // don't exit
+            saveDataToDisk(DO_NOT_EXIT, isInstanceComplete(false), null);
+            return true;
+        } else if (i1 == R.id.menu_goto) {
+            Collect.getInstance()
+                    .getActivityLogger()
+                    .logInstanceAction(this, "onOptionsItemSelected",
+                            "MENU_HIERARCHY_VIEW");
+            if (formController.currentPromptIsQuestion()) {
+                saveAnswersForCurrentScreen(DO_NOT_EVALUATE_CONSTRAINTS);
+            }
 
-                timerLogger.logTimerEvent(TimerLogger.EventTypes.HIERARCHY, 0, null, false, true);
+            timerLogger.logTimerEvent(TimerLogger.EventTypes.HIERARCHY, 0, null, false, true);
 
-                Intent i = new Intent(this, FormHierarchyActivity.class);
-                i.putExtra(ApplicationConstants.BundleKeys.FORM_MODE, ApplicationConstants.FormModes.EDIT_SAVED);
-                startActivityForResult(i, HIERARCHY_ACTIVITY);
-                return true;
-            case R.id.menu_preferences:
-                Collect.getInstance()
-                        .getActivityLogger()
-                        .logInstanceAction(this, "onOptionsItemSelected",
-                                "MENU_PREFERENCES");
-                Intent pref = new Intent(this, PreferencesActivity.class);
-                startActivity(pref);
-                return true;
+            Intent i = new Intent(this, FormHierarchyActivity.class);
+            i.putExtra(ApplicationConstants.BundleKeys.FORM_MODE, ApplicationConstants.FormModes.EDIT_SAVED);
+            startActivityForResult(i, HIERARCHY_ACTIVITY);
+            return true;
+        } else if (i1 == R.id.menu_preferences) {
+            Collect.getInstance()
+                    .getActivityLogger()
+                    .logInstanceAction(this, "onOptionsItemSelected",
+                            "MENU_PREFERENCES");
+            Intent pref = new Intent(this, PreferencesActivity.class);
+            startActivity(pref);
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

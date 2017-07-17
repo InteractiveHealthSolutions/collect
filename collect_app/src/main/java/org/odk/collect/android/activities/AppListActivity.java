@@ -130,23 +130,22 @@ abstract class AppListActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_sort:
-                if (drawerLayout.isDrawerOpen(Gravity.END)) {
-                    drawerLayout.closeDrawer(Gravity.END);
-                } else {
-                    Collect.getInstance().hideKeyboard(inputSearch);
-                    drawerLayout.openDrawer(Gravity.END);
-                }
-                return true;
-
-            case R.id.menu_filter:
-                if (searchBoxLayout.getVisibility() == View.GONE) {
-                    showSearchBox();
-                } else {
-                    hideSearchBox();
-                }
-                return true;
+        int i = item.getItemId();
+        if (i == R.id.menu_sort) {
+            if (drawerLayout.isDrawerOpen(Gravity.END)) {
+                drawerLayout.closeDrawer(Gravity.END);
+            } else {
+                Collect.getInstance().hideKeyboard(inputSearch);
+                drawerLayout.openDrawer(Gravity.END);
+            }
+            return true;
+        } else if (i == R.id.menu_filter) {
+            if (searchBoxLayout.getVisibility() == View.GONE) {
+                showSearchBox();
+            } else {
+                hideSearchBox();
+            }
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
