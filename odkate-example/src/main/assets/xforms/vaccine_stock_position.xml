@@ -466,7 +466,7 @@
         </translation>
       </itext>
       <instance>
-        <vaccine_stock_position encounter_type="Monthly vaccine stock position" id="vaccine_stock_position" version="201609270913">
+        <vaccine_stock_position bind_type="stock" encounter_type="Monthly vaccine stock position" id="vaccine_stock_position" version="201609270913">
           <formhub>
             <uuid/>
           </formhub>

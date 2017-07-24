@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'checkstyle'
+apply plugin: 'maven-publish'
 
 import com.android.ddmlib.DdmPreferences
 DdmPreferences.setTimeOut(60000)
@@ -190,9 +191,16 @@ dependencies {
     compile group: 'org.osmdroid', name: 'osmdroid-android', version: '5.6.4'
     compile group: 'org.slf4j', name: 'slf4j-android', version: '1.6.1-RC1'
     compile group: 'pub.devrel', name: 'easypermissions', version: '0.2.1'
-    compile(group: 'com.google.api-client', name: 'google-api-client-android', version: '1.22.0') { exclude group: 'org.apache.httpcomponents' }
-    compile(group: 'com.google.apis', name: 'google-api-services-drive', version: 'v3-rev64-1.22.0') { exclude group: 'org.apache.httpcomponents' }
-    compile(group: 'com.google.apis', name: 'google-api-services-sheets', version: 'v4-rev463-1.22.0') { exclude group: 'org.apache.httpcomponents' }
+    compile(group: 'com.google.api-client', name: 'google-api-client-android', version: '1.22.0') {
+        exclude group: 'org.apache.httpcomponents'
+        exclude group: 'com.google.guava'}
+    compile(group: 'com.google.apis', name: 'google-api-services-drive', version: 'v3-rev64-1.22.0') {
+        exclude group: 'org.apache.httpcomponents'
+        exclude group: 'com.google.guava'}
+    compile(group: 'com.google.apis', name: 'google-api-services-sheets', version: 'v4-rev463-1.22.0') {
+        exclude group: 'org.apache.httpcomponents'
+        exclude group: 'com.google.guava'
+    }
     compile group: 'com.jakewharton.timber', name: 'timber', version: '4.5.1'
     compile group: 'com.android.support', name: 'customtabs', version: '25.3.1'
     compile group: 'com.android.support', name: 'design', version: '25.3.1'
@@ -214,3 +222,34 @@ dependencies {
 // Must be at bottom to prevent dependency collisions
 // https://developers.google.com/android/guides/google-services-plugin
 apply plugin: 'com.google.gms.google-services'
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId 'com.ihs.odkate'
+            //You can either define these here or get them from project conf elsewhere
+            artifactId 'collect_app'
+            version '1.8.1'
+            artifact "$buildDir/outputs/aar/collect_app-release.aar" //aar artifact you want to publish
+
+            //generate pom nodes for dependencies
+            pom.withXml {
+                def dependenciesNode = asNode().appendNode('dependencies')
+                configurations.compile.allDependencies.each { dependency ->
+                    if (dependency.group && dependency.name) {
+                        def dependencyNode = dependenciesNode.appendNode('dependency')
+                        dependencyNode.appendNode('groupId', dependency.group)
+                        dependencyNode.appendNode('artifactId', dependency.name)
+                        dependencyNode.appendNode('version', dependency.version)
+                    }
+                }
+            }
+        }
+    }
+    //publish to filesystem repo
+    repositories{
+        maven {
+            url "$buildDir/repo"
+        }
+    }
+}

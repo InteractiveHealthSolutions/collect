@@ -20,17 +20,23 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ihs.odkate.base.FormUtils;
 import com.ihs.odkate.base.Odkate;
+import com.ihs.odkate.base.OdkateUtils;
 
+import org.joda.time.DateTime;
+import org.odk.collect.android.application.Collect;
 import org.odk.collect.android.provider.InstanceProviderAPI;
 import org.odk.collect.android.utilities.FileUtils;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
+import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -134,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        public View getView(int i, View convertView, ViewGroup viewGroup) {
+        public View getView(final int i, View convertView, ViewGroup viewGroup) {
             if (convertView == null) {
                 convertView = getLayoutInflater().inflate(R.layout.form_item, viewGroup, false);
             }
@@ -152,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
                         map.put("provider_city", "MY CITY"+new Random().nextInt(99));
                         map.put("provider_province", "MY PROV"+new Random().nextInt(99));
 
-                        Odkate.launchODKForm("vaccine_stock_position", activity, map);
+                        Odkate.launchODKForm(getItem(i).toString().replace(".xml", ""), "", activity, map);
                     } catch (IllegalAccessException e) {
                         e.printStackTrace();
                     } catch (IOException e) {
@@ -166,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        Log.v(getClass().getName(), "REQ C:"+requestCode+" - RES C:"+requestCode+" - DATA:"+data.toString());
+        Log.v(getClass().getName(), "REQ C:"+requestCode+" - RES C:"+requestCode+" - DATA:"+data);
         if (requestCode == Odkate.ODK_FORM_ENTRY_REQUEST_CODE){
             if (resultCode == RESULT_OK){
                 Cursor instanceCursor = null;
@@ -183,7 +189,17 @@ public class MainActivity extends AppCompatActivity {
                         // convert files into a byte array
                         byte[] fileBytes = FileUtils.getFileAsBytes(instance);
                         Log.v(getClass().getName(), new String(fileBytes));
+                        // do something with data
+                        String submission = FormUtils.getInstance(activity).generateFormSubmisionFromXMLString(
+                                new String[]{}, data.getData(), activity).toString().replace("\\/", "/");
+                        Log.v(getClass().getName(), submission);
+                        FileWriter f = new FileWriter(new File(Collect.INSTANCES_PATH+"/submission"+ DateTime.now().toString("yyyy-MM-ddHHmmss")+".json"), false);
+                        f.write(submission);
+                        f.flush();
+                        f.close();
                     }
+                } catch (Exception e) {
+                    e.printStackTrace();
                 } finally {
                     if (instanceCursor != null) {
                         instanceCursor.close();

@@ -1,0 +1,3229 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Daily Treatment Monitoring</h:title>
+    <model>
+      <itext>
+        <translation lang="Urdu">
+          <text id="static_instance-drug_list-17">
+            <value>Clofazimine (Cfz)</value>
+          </text>
+          <text id="static_instance-drug_unit-3">
+            <value>3۔) گولیاں</value>
+          </text>
+          <text id="static_instance-drug_method-1">
+            <value>1۔) ھسپتال میں معائنے کے وقت (ڈاٹ) کے تحت  دی گئی</value>
+          </text>
+          <text id="static_instance-strength-18">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/advise_hospital:label">
+            <value>3۔) ٹی بی کے ڈاکٹر سے فون پر مشورہ کر کے مریض کو ھسپتال میں داخل کرا دیا</value>
+          </text>
+          <text id="/daily_treatment_monitoring/km:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-11">
+            <value>Terizidone (Trd)</value>
+          </text>
+          <text id="static_instance-drug_method-0">
+            <value>0۔) ھسپتال میں داخلے کے دوران (ڈاٹ) کے تحت  دی گئی</value>
+          </text>
+          <text id="static_instance-drug_display-4">
+            <value>Kanamycin (Km)</value>
+          </text>
+          <text id="static_instance-formulation-19">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/dtm_date:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/sat_dot:label">
+            <value>4۔) کچھ خوراک مریض نے خود (ایس اے ٹی کے تحت) لی، اور کچھ خوراک (ڈاٹ) کے تحت  دی گئی</value>
+          </text>
+          <text id="static_instance-drug_display-18">
+            <value>Imipenem/Cilastatin (Imp/Cln)</value>
+          </text>
+          <text id="static_instance-strength-10">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-15">
+            <value>Delamanid (Dlm)</value>
+          </text>
+          <text id="static_instance-drug_list-20">
+            <value>Clarythromycin (Clr)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_mg_note:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-14">
+            <value>Bedaquiline (Bdq)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/eto:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/administered_dose:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/simserial:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-0">
+            <value>Isoniazid (H)</value>
+          </text>
+          <text id="static_instance-strength-13">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-21">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/bdq:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-21">
+            <value>Meropenem (Mpm)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/advise_medication:label">
+            <value>2۔) ٹی بی کے ڈاکٹر سے فون پر مشورہ کر کے ضروری ادویات لینے کی ہدایات دے دی گئیں</value>
+          </text>
+          <text id="static_instance-drug_display-2">
+            <value>Pyrazinamide (Z)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/inpatient:label">
+            <value>0۔) ھسپتال میں داخلے کے دوران (ڈاٹ) کے تحت  دی گئی</value>
+          </text>
+          <text id="static_instance-yes_no2-1">
+            <value>2۔) نہیں</value>
+          </text>
+          <text id="/daily_treatment_monitoring/imp_cln:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-adverse_event-3">
+            <value>3۔) کسی ‌قسم کے فوری اقدامات کی ضرورت نہیں</value>
+          </text>
+          <text id="static_instance-strength-20">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-1">
+            <value>Ethambutol (E)</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>2۔) نہیں</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/yes:label">
+            <value>1۔) ہاں</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>1۔) ہاں</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/date_tx_start:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_method-3">
+            <value>3۔) مریض نے خود  (ایس اے ٹی کے تحت) لی</value>
+          </text>
+          <text id="/daily_treatment_monitoring/lzd:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-13">
+            <value>Para-aminosalicylic acid - sodium (PAS-Na)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event/no:label">
+            <value>2۔) نہیں</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cfz:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-3">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/followup_next_day:label">
+            <value>1۔) اگلے دن طبّی معائنہ کیا جاے گا</value>
+          </text>
+          <text id="static_instance-formulation-12">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/end:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/dlm:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event/no:label">
+            <value>2۔) نہیں</value>
+          </text>
+          <text id="static_instance-formulation-9">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_identifier:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-16">
+            <value>Linezolid (Lzd)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_unit:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/trd:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/mpm:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-9">
+            <value>Ethionamide (Eto)</value>
+          </text>
+          <text id="static_instance-drug_list-7">
+            <value>Moxifloxacin (Mfx)</value>
+          </text>
+          <text id="static_instance-formulation-1">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/e:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-7">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-15">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-13">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-8">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-12">
+            <value>Para-aminosalicylic acid (PAS)</value>
+          </text>
+          <text id="static_instance-drug_list-3">
+            <value>Amikacin (Am)</value>
+          </text>
+          <text id="static_instance-drug_unit-4">
+            <value>4۔) ساشے</value>
+          </text>
+          <text id="static_instance-formulation-14">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-4">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_prescription:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cm:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-14">
+            <value>Bedaquiline (Bdq)</value>
+          </text>
+          <text id="static_instance-formulation-20">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/mfx:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-9">
+            <value>Ethionamide (Eto)</value>
+          </text>
+          <text id="static_instance-drug_list-2">
+            <value>Pyrazinamide (Z)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/outpatient_facility:label">
+            <value>1۔) ھسپتال میں معائنے کے وقت (ڈاٹ) کے تحت  دی گئی</value>
+          </text>
+          <text id="/daily_treatment_monitoring/start:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-11">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-10">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/am:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/outpatient_community:label">
+            <value>2۔) مریض کے گھر پہ (ڈاٹ) کے تحت  دی گئی</value>
+          </text>
+          <text id="static_instance-formulation-17">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-21">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-3">
+            <value>Amikacin (Am)</value>
+          </text>
+          <text id="static_instance-drug_list-10">
+            <value>Cycloserine (Cs)</value>
+          </text>
+          <text id="static_instance-drug_list-18">
+            <value>Imipenem/Cilastatin (Imp/Cln)</value>
+          </text>
+          <text id="static_instance-drug_method-5">
+            <value>5۔) کسی اور طریقے سے دی گئی</value>
+          </text>
+          <text id="static_instance-drug_list-11">
+            <value>Terizidone (Trd)</value>
+          </text>
+          <text id="static_instance-drug_method-4">
+            <value>4۔) کچھ خوراک مریض نے خود (ایس اے ٹی کے تحت) لی، اور کچھ خوراک (ڈاٹ) کے تحت  دی گئی</value>
+          </text>
+          <text id="static_instance-drug_unit-6">
+            <value>6۔)شیشی</value>
+          </text>
+          <text id="static_instance-drug_display-12">
+            <value>Para-aminosalicylic acid (PAS)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/other_deliverymethod:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event/yes:label">
+            <value>1۔) ہاں</value>
+          </text>
+          <text id="/daily_treatment_monitoring/lfx:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/no_action:label">
+            <value>3۔) کسی ‌قسم کے فوری اقدامات کی ضرورت نہیں</value>
+          </text>
+          <text id="static_instance-strength-0">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/sat:label">
+            <value>3۔) مریض نے خود  (ایس اے ٹی کے تحت) لی</value>
+          </text>
+          <text id="static_instance-drug_display-17">
+            <value>Clofazimine (Cfz)</value>
+          </text>
+          <text id="static_instance-drug_display-19">
+            <value>Amoxicillin/Clavulanate (Amx/Clv)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/note_tx_day_number:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_index:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-8">
+            <value>Prothionamide (Pto)</value>
+          </text>
+          <text id="static_instance-drug_display-21">
+            <value>Meropenem (Mpm)</value>
+          </text>
+          <text id="static_instance-drug_display-20">
+            <value>Clarythromycin (Clr)</value>
+          </text>
+          <text id="static_instance-drug_list-13">
+            <value>Para-aminosalicylic acid - sodium (PAS-Na)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/missed_dose_amount_note:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-4">
+            <value>Kanamycin (Km)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_date_tx_start:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_unit-0">
+            <value>1۔) ملی گرام</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_strength:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_id:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-9">
+            <value>-</value>
+          </text>
+          <text id="static_instance-yes_no2-0">
+            <value>1۔) ہاں</value>
+          </text>
+          <text id="static_instance-yes_no2-2">
+            <value>3۔)  یہاں لاگو نہیں</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/subscriberid:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/no:label">
+            <value>2۔) نہیں</value>
+          </text>
+          <text id="static_instance-drug_display-5">
+            <value>Capreomycin (Cm)</value>
+          </text>
+          <text id="static_instance-drug_display-10">
+            <value>Cycloserine (Cs)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pas_na:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-15">
+            <value>Delamanid (Dlm)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/amx_clv:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-16">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_unit-5">
+            <value>5۔)سکوپس</value>
+          </text>
+          <text id="static_instance-strength-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-0">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-16">
+            <value>Linezolid (Lzd)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pto:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-7">
+            <value>Moxifloxacin (Mfx)</value>
+          </text>
+          <text id="static_instance-drug_method-2">
+            <value>2۔) مریض کے گھر پہ (ڈاٹ) کے تحت  دی گئی</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/dtm_date_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-6">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/n/a:label">
+            <value>3۔)  یہاں لاگو نہیں</value>
+          </text>
+          <text id="/daily_treatment_monitoring/phonenumber:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-16">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/regimen_number:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-19">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-11">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-4">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-17">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-18">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/h:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_gender:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-19">
+            <value>Amoxicillin/Clavulanate (Amx/Clv)</value>
+          </text>
+          <text id="static_instance-drug_unit-2">
+            <value>Capsule</value>
+          </text>
+          <text id="static_instance-strength-14">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-5">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/other:label">
+            <value>5۔) کسی اور طریقے سے دی گئی</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cs:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event/yes:label">
+            <value>1۔) ہاں</value>
+          </text>
+          <text id="static_instance-formulation-6">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pas:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-0">
+            <value>Isoniazid (H)</value>
+          </text>
+          <text id="static_instance-drug_list-6">
+            <value>Levofloxacin (Lfx)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/provider_location_id:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/clr:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-7">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/deviceid:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-8">
+            <value>Prothionamide (Pto)</value>
+          </text>
+          <text id="static_instance-adverse_event-0">
+            <value>1۔) اگلے دن طبّی معائنہ کیا جاے گا</value>
+          </text>
+          <text id="static_instance-formulation-8">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-5">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/identifier:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-6">
+            <value>Levofloxacin (Lfx)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_full_name:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-12">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-15">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-1">
+            <value>Ethambutol (E)</value>
+          </text>
+          <text id="static_instance-drug_list-5">
+            <value>Capreomycin (Cm)</value>
+          </text>
+          <text id="static_instance-adverse_event-2">
+            <value>3۔) ٹی بی کے ڈاکٹر سے فون پر مشورہ کر کے مریض کو ھسپتال میں داخل کرا دیا</value>
+          </text>
+          <text id="static_instance-adverse_event-1">
+            <value>2۔) ٹی بی کے ڈاکٹر سے فون پر مشورہ کر کے ضروری ادویات لینے کی ہدایات دے دی گئیں</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/gender:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/gps:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/full_name:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_unit-1">
+            <value>2۔) گرام</value>
+          </text>
+          <text id="/daily_treatment_monitoring/z:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_name:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation default="true()" lang="English">
+          <text id="static_instance-drug_list-17">
+            <value>Clofazimine (Cfz)</value>
+          </text>
+          <text id="static_instance-drug_unit-3">
+            <value>Tablet</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/advise_medication:label">
+            <value>Consult on phone with TB doctor for advise and advise ancillary medications</value>
+          </text>
+          <text id="static_instance-strength-18">
+            <value>0</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/advise_hospital:label">
+            <value>Consult on phone with TB doctor for advise and advise transfer to referral hospital</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event:label">
+            <value>If yes, is this a serious adverse event?</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat:label">
+            <value>List of drug names limited to the drugs patient is currently on as per Q 2</value>
+          </text>
+          <text id="static_instance-drug_method-0">
+            <value>DOT Inpatient</value>
+          </text>
+          <text id="static_instance-drug_display-4">
+            <value>Kanamycin_Km</value>
+          </text>
+          <text id="/daily_treatment_monitoring/mfx:label">
+            <value>moxifloxacin_mfx</value>
+          </text>
+          <text id="/daily_treatment_monitoring/dtm_date:label">
+            <value>dtm_date</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name:label">
+            <value>drug_display_name</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/sat_dot:label">
+            <value>Combination SAT and DOT</value>
+          </text>
+          <text id="static_instance-drug_display-18">
+            <value>Imipenem_Cilastatin_Imp_Cln</value>
+          </text>
+          <text id="static_instance-strength-10">
+            <value>250</value>
+          </text>
+          <text id="static_instance-drug_list-15">
+            <value>Delamanid (Dlm)</value>
+          </text>
+          <text id="static_instance-drug_list-20">
+            <value>Clarythromycin (Clr)</value>
+          </text>
+          <text id="static_instance-drug_display-5">
+            <value>Capreomycin_Cm</value>
+          </text>
+          <text id="static_instance-drug_display-14">
+            <value>Bedaquiline_Bdq</value>
+          </text>
+          <text id="/daily_treatment_monitoring/eto:label">
+            <value>ethionamide_eto</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/administered_dose:label">
+            <value>
+              <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- Administered dose (Prescribed Dose <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose "/>)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/simserial:label">
+            <value>simserial</value>
+          </text>
+          <text id="static_instance-drug_list-0">
+            <value>Isoniazid (H)</value>
+          </text>
+          <text id="static_instance-strength-13">
+            <value>4600</value>
+          </text>
+          <text id="static_instance-strength-21">
+            <value>0</value>
+          </text>
+          <text id="/daily_treatment_monitoring/bdq:label">
+            <value>bedaquiline_bdq</value>
+          </text>
+          <text id="static_instance-drug_list-21">
+            <value>Meropenem (Mpm)</value>
+          </text>
+          <text id="static_instance-drug_method-1">
+            <value>DOT Outpatient facility-based</value>
+          </text>
+          <text id="static_instance-drug_display-2">
+            <value>Pyrazinamide_Z</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/inpatient:label">
+            <value>DOT Inpatient</value>
+          </text>
+          <text id="static_instance-yes_no2-1">
+            <value>No</value>
+          </text>
+          <text id="/daily_treatment_monitoring/imp_cln:label">
+            <value>imipenem_cilastatin_imp_cln</value>
+          </text>
+          <text id="static_instance-adverse_event-3">
+            <value>No action required</value>
+          </text>
+          <text id="static_instance-strength-20">
+            <value>500</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-drug_display-1">
+            <value>Ethambutol_E</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-drug_list-13">
+            <value>Para-aminosalicylic acid - sodium (PAS-Na)</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/date_tx_start:label">
+            <value>Treatment start date: <output value=" /daily_treatment_monitoring/existing_date_tx_start "/></value></text>
+          <text id="static_instance-strength-3">
+            <value>500</value>
+          </text>
+          <text id="static_instance-drug_method-3">
+            <value>Self Adminstered Treatment (SAT)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/lzd:label">
+            <value>linezolid_lzd</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pas_na:label">
+            <value>para_aminosalicylic_acid_sodium_pasna</value>
+          </text>
+          <text id="static_instance-drug_display-13">
+            <value>Para_aminosalicylic_acid_sodium_PAS-Na</value>
+          </text>
+          <text id="static_instance-drug_display-21">
+            <value>Meropenem_Mpm</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event/no:label">
+            <value>No</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cfz:label">
+            <value>clofazimine_cfz</value>
+          </text>
+          <text id="static_instance-formulation-3">
+            <value>vial</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/followup_next_day:label">
+            <value>Follow up next day for clinical review</value>
+          </text>
+          <text id="static_instance-formulation-12">
+            <value>sachet</value>
+          </text>
+          <text id="/daily_treatment_monitoring/end:label">
+            <value>end</value>
+          </text>
+          <text id="/daily_treatment_monitoring/dlm:label">
+            <value>delamanid_dlm</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event/no:label">
+            <value>No</value>
+          </text>
+          <text id="static_instance-formulation-9">
+            <value>Tablet</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_identifier:label">
+            <value>existing_identifier</value>
+          </text>
+          <text id="static_instance-drug_display-16">
+            <value>Linezolid_Lzd</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_unit:label">
+            <value><output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- Dose unit</value></text>
+          <text id="static_instance-adverse_event-2">
+            <value>Consult on phone with TB doctor for advise and advise transfer to referral hospital</value>
+          </text>
+          <text id="/daily_treatment_monitoring/mpm:label">
+            <value>meropenem_mpm</value>
+          </text>
+          <text id="static_instance-drug_display-11">
+            <value>Terizidone_Trd</value>
+          </text>
+          <text id="static_instance-drug_list-9">
+            <value>Ethionamide (Eto)</value>
+          </text>
+          <text id="static_instance-drug_list-3">
+            <value>Amikacin (Am)</value>
+          </text>
+          <text id="static_instance-formulation-1">
+            <value>Tablet</value>
+          </text>
+          <text id="static_instance-drug_unit-2">
+            <value>Capsule</value>
+          </text>
+          <text id="/daily_treatment_monitoring/e:label">
+            <value>ethambutol_e</value>
+          </text>
+          <text id="static_instance-strength-7">
+            <value>400</value>
+          </text>
+          <text id="static_instance-formulation-15">
+            <value>Tablet</value>
+          </text>
+          <text id="static_instance-formulation-13">
+            <value>scoop</value>
+          </text>
+          <text id="static_instance-strength-8">
+            <value>0</value>
+          </text>
+          <text id="static_instance-drug_list-12">
+            <value>Para-aminosalicylic acid (PAS)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/am:label">
+            <value>amikacin_am</value>
+          </text>
+          <text id="static_instance-drug_list-7">
+            <value>Moxifloxacin (Mfx)</value>
+          </text>
+          <text id="static_instance-drug_unit-4">
+            <value>Sachet</value>
+          </text>
+          <text id="static_instance-formulation-14">
+            <value>Tablet</value>
+          </text>
+          <text id="static_instance-formulation-4">
+            <value>vial</value>
+          </text>
+          <text id="/daily_treatment_monitoring/trd:label">
+            <value>terizidone_trd</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cm:label">
+            <value>capreomycin_cm</value>
+          </text>
+          <text id="static_instance-drug_list-14">
+            <value>Bedaquiline (Bdq)</value>
+          </text>
+          <text id="static_instance-drug_display-9">
+            <value>Ethionamide_Eto</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/outpatient_facility:label">
+            <value>DOT Outpatient facility-based</value>
+          </text>
+          <text id="/daily_treatment_monitoring/start:label">
+            <value>start</value>
+          </text>
+          <text id="static_instance-strength-11">
+            <value>0</value>
+          </text>
+          <text id="static_instance-formulation-10">
+            <value>capsule</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_note:label">
+            <value>
+              <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- Prescribed dose: <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose "/></value></text>
+          <text id="static_instance-drug_list-2">
+            <value>Pyrazinamide (Z)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/outpatient_community:label">
+            <value>DOT Outpatient community-based</value>
+          </text>
+          <text id="static_instance-formulation-19">
+            <value>Tablet</value>
+          </text>
+          <text id="static_instance-strength-2">
+            <value>400</value>
+          </text>
+          <text id="static_instance-formulation-21">
+            <value>na</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage:label">
+            <value><output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- Dosage</value></text>
+          <text id="static_instance-drug_display-3">
+            <value>Amikacin_Am</value>
+          </text>
+          <text id="static_instance-drug_list-10">
+            <value>Cycloserine (Cs)</value>
+          </text>
+          <text id="static_instance-drug_list-18">
+            <value>Imipenem/Cilastatin (Imp/Cln)</value>
+          </text>
+          <text id="static_instance-drug_method-5">
+            <value>Other</value>
+          </text>
+          <text id="/daily_treatment_monitoring/km:label">
+            <value>kanamycin_km</value>
+          </text>
+          <text id="static_instance-drug_unit-5">
+            <value>Scoop</value>
+          </text>
+          <text id="static_instance-drug_unit-6">
+            <value>Vial</value>
+          </text>
+          <text id="static_instance-drug_display-12">
+            <value>Para_aminosalicylic_acid_PAS</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_index:label">
+            <value>drug_index</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/daily_treatment_monitoring/lfx:label">
+            <value>levofloxacin_lfx</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/no_action:label">
+            <value>No action required</value>
+          </text>
+          <text id="static_instance-strength-0">
+            <value>100</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/sat:label">
+            <value>Self Adminstered Treatment (SAT)</value>
+          </text>
+          <text id="static_instance-drug_display-17">
+            <value>Clofazimine_Cfz</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_prescription:label">
+            <value>existing_prescription</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/note_tx_day_number:label">
+            <value>Day Of Treatment: <output value=" /daily_treatment_monitoring/Section_BI/tx_day_number "/></value></text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event:label">
+            <value>Does the patient have an adverse event?</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/other_deliverymethod:label">
+            <value><output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- If Treamtent Delivery method 'other', then specify</value></text>
+          <text id="static_instance-drug_list-8">
+            <value>Prothionamide (Pto)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/phonenumber:label">
+            <value>phonenumber</value>
+          </text>
+          <text id="static_instance-drug_display-20">
+            <value>Clarythromycin_Clr</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate_note:label">
+            <value>
+              <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- DOT Rate: <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate "/></value></text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/missed_dose_amount_note:label">
+            <value>
+              <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- Drug Missed dose: <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/missed_dose_amount "/></value></text>
+          <text id="/daily_treatment_monitoring/existing_date_tx_start:label">
+            <value>existing_date_tx_start</value>
+          </text>
+          <text id="static_instance-drug_unit-0">
+            <value>Mg</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_strength:label">
+            <value><output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- Prescribed dose strength</value></text>
+          <text id="static_instance-drug_list-11">
+            <value>Terizidone (Trd)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_id:label">
+            <value>drug_id</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_full_name:label">
+            <value>existing_full_name</value>
+          </text>
+          <text id="static_instance-yes_no2-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-yes_no2-2">
+            <value>N/A</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration_note:label">
+            <value>
+              <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- Administration <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration "/></value></text>
+          <text id="/daily_treatment_monitoring/subscriberid:label">
+            <value>subscriberid</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/no:label">
+            <value>No</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_mg_note:label">
+            <value>
+              <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- Prescribed dose: <output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_mg "/> mg</value>
+          </text>
+          <text id="static_instance-drug_display-10">
+            <value>Cycloserine_Cs</value>
+          </text>
+          <text id="static_instance-formulation-20">
+            <value>Tablet</value>
+          </text>
+          <text id="static_instance-drug_display-15">
+            <value>Delamanid_Dlm</value>
+          </text>
+          <text id="/daily_treatment_monitoring/amx_clv:label">
+            <value>amoxicillin_clavulanate_amx_clv</value>
+          </text>
+          <text id="static_instance-formulation-16">
+            <value>Tablet</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE:label">
+            <value>Adverse Events</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM:label">
+            <value>Daily Monitoring form</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action:label">
+            <value>If a non-serious adverse event then:</value>
+          </text>
+          <text id="static_instance-drug_method-4">
+            <value>Combination SAT and DOT</value>
+          </text>
+          <text id="static_instance-strength-1">
+            <value>100</value>
+          </text>
+          <text id="static_instance-formulation-0">
+            <value>Tablet</value>
+          </text>
+          <text id="static_instance-drug_list-16">
+            <value>Linezolid (Lzd)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pto:label">
+            <value>prothionamide_pto</value>
+          </text>
+          <text id="static_instance-drug_display-7">
+            <value>Moxifloxacin_Mfx</value>
+          </text>
+          <text id="static_instance-drug_method-2">
+            <value>DOT Outpatient community-based</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/dtm_date_note:label">
+            <value>DTM date: <output value=" /daily_treatment_monitoring/dtm_date "/></value></text>
+          <text id="/daily_treatment_monitoring/Section_BI:label">
+            <value>Basic information</value>
+          </text>
+          <text id="static_instance-strength-6">
+            <value>250</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/n/a:label">
+            <value>N/A</value>
+          </text>
+          <text id="static_instance-strength-16">
+            <value>600</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/regimen_number:label">
+            <value>Number of drugs in the regimen</value>
+          </text>
+          <text id="static_instance-strength-19">
+            <value>625</value>
+          </text>
+          <text id="static_instance-formulation-2">
+            <value>Tablet</value>
+          </text>
+          <text id="static_instance-formulation-11">
+            <value>na</value>
+          </text>
+          <text id="static_instance-strength-4">
+            <value>1000</value>
+          </text>
+          <text id="static_instance-strength-17">
+            <value>50</value>
+          </text>
+          <text id="static_instance-formulation-17">
+            <value>capsule</value>
+          </text>
+          <text id="static_instance-formulation-18">
+            <value>na</value>
+          </text>
+          <text id="/daily_treatment_monitoring/h:label">
+            <value>isoniazid_h</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_gender:label">
+            <value>existing_gender</value>
+          </text>
+          <text id="static_instance-drug_list-19">
+            <value>Amoxicillin/Clavulanate (Amx/Clv)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment:label">
+            <value><output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- Treatment</value></text>
+          <text id="static_instance-strength-14">
+            <value>100</value>
+          </text>
+          <text id="static_instance-strength-5">
+            <value>1000</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cs:label">
+            <value>cycloserine_cs</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-formulation-6">
+            <value>Tablet</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pas:label">
+            <value>para_aminosalicylic_acid_pas</value>
+          </text>
+          <text id="static_instance-drug_display-0">
+            <value>Isoniazid_H</value>
+          </text>
+          <text id="static_instance-drug_list-6">
+            <value>Levofloxacin (Lfx)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/provider_location_id:label">
+            <value>provider_location_id</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral:label">
+            <value>If yes, transferred to admission site immediately?</value>
+          </text>
+          <text id="/daily_treatment_monitoring/clr:label">
+            <value>clarythromycin_clr</value>
+          </text>
+          <text id="static_instance-formulation-7">
+            <value>Tablet</value>
+          </text>
+          <text id="/daily_treatment_monitoring/deviceid:label">
+            <value>deviceid</value>
+          </text>
+          <text id="static_instance-drug_display-8">
+            <value>Prothionamide_Pto</value>
+          </text>
+          <text id="static_instance-adverse_event-0">
+            <value>Follow up next day for clinical review</value>
+          </text>
+          <text id="static_instance-formulation-8">
+            <value>na</value>
+          </text>
+          <text id="static_instance-drug_display-19">
+            <value>Amoxicillin_Clavulanate_Amx_Clv</value>
+          </text>
+          <text id="static_instance-formulation-5">
+            <value>vial</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/identifier:label">
+            <value>Registration Number: <output value=" /daily_treatment_monitoring/existing_identifier "/></value></text>
+          <text id="static_instance-drug_display-6">
+            <value>Levofloxacin_Lfx</value>
+          </text>
+          <text id="static_instance-strength-9">
+            <value>250</value>
+          </text>
+          <text id="static_instance-strength-12">
+            <value>4000</value>
+          </text>
+          <text id="static_instance-strength-15">
+            <value>50</value>
+          </text>
+          <text id="static_instance-drug_list-1">
+            <value>Ethambutol (E)</value>
+          </text>
+          <text id="static_instance-drug_list-5">
+            <value>Capreomycin (Cm)</value>
+          </text>
+          <text id="static_instance-drug_list-4">
+            <value>Kanamycin (Km)</value>
+          </text>
+          <text id="static_instance-adverse_event-1">
+            <value>Consult on phone with TB doctor for advise and advise ancillary medications</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/gender:label">
+            <value>Gender: <output value=" /daily_treatment_monitoring/existing_gender "/></value></text>
+          <text id="/daily_treatment_monitoring/Section_BI/gps:label">
+            <value>GPS</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration:label">
+            <value><output value=" /daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name "/>- Treamtent Delivery method</value></text>
+          <text id="/daily_treatment_monitoring/Section_BI/full_name:label">
+            <value>Name: <output value=" /daily_treatment_monitoring/existing_full_name "/></value></text>
+          <text id="static_instance-drug_unit-1">
+            <value>Gram</value>
+          </text>
+          <text id="/daily_treatment_monitoring/z:label">
+            <value>pyrazinamide_z</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_name:label">
+            <value>Drug name</value>
+          </text>
+        </translation>
+        <translation lang="openmrs_code">
+          <text id="static_instance-drug_list-17">
+            <value>73581AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_unit-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_method-1">
+            <value>e07f9253-90bb-42af-82b9-0da224995f07</value>
+          </text>
+          <text id="static_instance-strength-18">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/advise_hospital:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/km:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-11">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_method-0">
+            <value>c374eb7e-6bf3-44fe-824a-70c2c355bce2</value>
+          </text>
+          <text id="static_instance-drug_display-4">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/mfx:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/dtm_date:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/sat_dot:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-18">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-10">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-15">
+            <value>163144AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_list-20">
+            <value>9f59e4a5-bbfd-4c03-9546-436b74886d56</value>
+          </text>
+          <text id="static_instance-drug_display-5">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-14">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/eto:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/administered_dose:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/simserial:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-0">
+            <value>78280AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-strength-13">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-21">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/bdq:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-21">
+            <value>79611AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/advise_medication:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-2">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/inpatient:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-yes_no2-1">
+            <value>c37ba25d-d79e-403d-b8dd-0974eee67f19</value>
+          </text>
+          <text id="/daily_treatment_monitoring/imp_cln:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-adverse_event-3">
+            <value>08b332a6-5b49-4e24-8b5f-4417bf5eae92</value>
+          </text>
+          <text id="static_instance-strength-20">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/yes:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>c37ba25d-d79e-403d-b8dd-0974eee67f19</value>
+          </text>
+          <text id="static_instance-drug_list-13">
+            <value>81458AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_display-15">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/date_tx_start:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_method-3">
+            <value>fe1fc436-856e-4d3f-9795-41b3f6c954eb</value>
+          </text>
+          <text id="/daily_treatment_monitoring/lzd:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-13">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event/no:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cfz:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-3">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/followup_next_day:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-12">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/end:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/dlm:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event/no:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-9">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_identifier:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-16">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_unit:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/trd:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/mpm:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-9">
+            <value>75976AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_list-7">
+            <value>80133AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-formulation-1">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/e:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-7">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-15">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-13">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-8">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-12">
+            <value>81457AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_list-3">
+            <value>71060AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_unit-4">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-14">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-4">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cm:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-14">
+            <value>163143AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-formulation-20">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-9">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-2">
+            <value>82900AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/outpatient_facility:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/start:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-11">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-10">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/am:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/outpatient_community:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-19">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-2">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cs:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-10">
+            <value>74123AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_list-18">
+            <value>104315AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_method-5">
+            <value>b31c6dab-b80f-413c-946d-29fa3f79fa3d</value>
+          </text>
+          <text id="static_instance-drug_list-11">
+            <value>84836AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_method-4">
+            <value>21f0727e-d7d5-4549-8902-a32d310069f6</value>
+          </text>
+          <text id="static_instance-drug_unit-6">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-8">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/other_deliverymethod:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event/yes:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/lfx:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/no_action:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-0">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/sat:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-17">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_prescription:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/note_tx_day_number:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_index:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-8">
+            <value>82772AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_display-21">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-20">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/missed_dose_amount_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_date_tx_start:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_unit-0">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_strength:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_id:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-9">
+            <value>-</value>
+          </text>
+          <text id="static_instance-yes_no2-0">
+            <value>d4790b94-3397-416a-8d19-a9a90d3edd8d</value>
+          </text>
+          <text id="static_instance-yes_no2-2">
+            <value>c1c75b5d-df7f-43e1-bfd4-ef4726c3a81a</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/subscriberid:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/no:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_mg_note:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-10">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pas_na:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>d4790b94-3397-416a-8d19-a9a90d3edd8d</value>
+          </text>
+          <text id="/daily_treatment_monitoring/amx_clv:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-16">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_unit-5">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-0">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-16">
+            <value>78879AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pto:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-7">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_method-2">
+            <value>8b009550-4f73-45a6-9669-6d46f5b32aa2</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/dtm_date_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-6">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/n/a:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/phonenumber:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-16">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/regimen_number:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-19">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-11">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-4">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-17">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-17">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-18">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/h:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_gender:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-19">
+            <value>450AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_unit-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-14">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-5">
+            <value>-</value>
+          </text>
+          <text id="static_instance-adverse_event-2">
+            <value>d5ec108a-a160-4025-adf6-3c5561e212c4</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/other:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event/yes:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-6">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pas:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-0">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-6">
+            <value>78788AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="/daily_treatment_monitoring/provider_location_id:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/clr:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-7">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/deviceid:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-21">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-12">
+            <value>-</value>
+          </text>
+          <text id="static_instance-adverse_event-0">
+            <value>b7e85fc7-d368-40bc-ba7b-dcdd56000cbd</value>
+          </text>
+          <text id="static_instance-formulation-8">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-19">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-5">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/identifier:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-6">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_full_name:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-12">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-15">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-1">
+            <value>75948AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_list-5">
+            <value>72794AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-drug_list-4">
+            <value>78385AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+          </text>
+          <text id="static_instance-adverse_event-1">
+            <value>9f7adbdd-ae10-435a-81ab-2c3a0a0dfe85</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/gender:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/gps:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/full_name:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_unit-1">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/z:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_name:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="Roman Urdu">
+          <text id="static_instance-drug_list-17">
+            <value>Clofazimine (Cfz)</value>
+          </text>
+          <text id="static_instance-drug_unit-3">
+            <value>3) goliyaan</value>
+          </text>
+          <text id="static_instance-drug_method-1">
+            <value>1) Hospital main muainay ke waqt DOT ke tehet di gayee</value>
+          </text>
+          <text id="static_instance-strength-18">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/advise_hospital:label">
+            <value>3) TB ke doctor se phone pe mashwara kar ke mareez ko hospital main daakhil kara diya</value>
+          </text>
+          <text id="/daily_treatment_monitoring/km:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-11">
+            <value>Terizidone (Trd)</value>
+          </text>
+          <text id="static_instance-drug_method-0">
+            <value>0) Hospital main daakhlay ke doraan DOT ke tehet di gayee</value>
+          </text>
+          <text id="static_instance-drug_display-4">
+            <value>Kanamycin (Km)</value>
+          </text>
+          <text id="static_instance-formulation-19">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/dtm_date:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/sat_dot:label">
+            <value>4) Kuch khuraak mareez ne khud (SAT ke tehet) li, aur kuch khuraak DOT ke tehet di gayee</value>
+          </text>
+          <text id="static_instance-drug_display-18">
+            <value>Imipenem/Cilastatin (Imp/Cln)</value>
+          </text>
+          <text id="static_instance-strength-10">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-15">
+            <value>Delamanid (Dlm)</value>
+          </text>
+          <text id="static_instance-drug_list-20">
+            <value>Clarythromycin (Clr)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_mg_note:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-14">
+            <value>Bedaquiline (Bdq)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/eto:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/administered_dose:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/simserial:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-0">
+            <value>Isoniazid (H)</value>
+          </text>
+          <text id="static_instance-strength-13">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-21">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/bdq:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-21">
+            <value>Meropenem (Mpm)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/advise_medication:label">
+            <value>2) TB ke doctor se phone pe mashwara kar ke zaroori adwiyat lene ki hidayat de di</value>
+          </text>
+          <text id="static_instance-drug_display-2">
+            <value>Pyrazinamide (Z)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/inpatient:label">
+            <value>0) Hospital main daakhlay ke doraan DOT ke tehet di gayee</value>
+          </text>
+          <text id="static_instance-yes_no2-1">
+            <value>2) Nahin</value>
+          </text>
+          <text id="/daily_treatment_monitoring/imp_cln:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-adverse_event-3">
+            <value>4) Kisi qism ke fori iaqdamat ki zaroorat nahi</value>
+          </text>
+          <text id="static_instance-strength-20">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-1">
+            <value>Ethambutol (E)</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>2) Nahin</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/yes:label">
+            <value>1) Haan</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>1) Haan</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/date_tx_start:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_method-3">
+            <value>3) Mareez ne khud (SAT ke tehet) li</value>
+          </text>
+          <text id="/daily_treatment_monitoring/lzd:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-13">
+            <value>Para-aminosalicylic acid - sodium (PAS-Na)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event/no:label">
+            <value>2) Nahin</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cfz:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-3">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/followup_next_day:label">
+            <value>1) Aglay din tibbi muaina kiya jayega</value>
+          </text>
+          <text id="static_instance-formulation-12">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/end:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/dlm:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event/no:label">
+            <value>2) Nahin</value>
+          </text>
+          <text id="static_instance-formulation-9">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_identifier:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-16">
+            <value>Linezolid (Lzd)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_unit:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/trd:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/mpm:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-9">
+            <value>Ethionamide (Eto)</value>
+          </text>
+          <text id="static_instance-drug_list-7">
+            <value>Moxifloxacin (Mfx)</value>
+          </text>
+          <text id="static_instance-formulation-1">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/e:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-7">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-15">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-13">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-8">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-12">
+            <value>Para-aminosalicylic acid (PAS)</value>
+          </text>
+          <text id="static_instance-drug_list-3">
+            <value>Amikacin (Am)</value>
+          </text>
+          <text id="static_instance-drug_unit-4">
+            <value>4) sashay</value>
+          </text>
+          <text id="static_instance-formulation-14">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-4">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_prescription:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cm:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-14">
+            <value>Bedaquiline (Bdq)</value>
+          </text>
+          <text id="static_instance-formulation-20">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/mfx:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-9">
+            <value>Ethionamide (Eto)</value>
+          </text>
+          <text id="static_instance-drug_list-2">
+            <value>Pyrazinamide (Z)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/outpatient_facility:label">
+            <value>1) Hospital main muainay ke waqt DOT ke tehet di gayee</value>
+          </text>
+          <text id="/daily_treatment_monitoring/start:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-11">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-10">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/am:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/outpatient_community:label">
+            <value>2) Mareez ke ghar pe DOT ke tehet di gayee</value>
+          </text>
+          <text id="static_instance-formulation-17">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-21">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-3">
+            <value>Amikacin (Am)</value>
+          </text>
+          <text id="static_instance-drug_list-10">
+            <value>Cycloserine (Cs)</value>
+          </text>
+          <text id="static_instance-drug_list-18">
+            <value>Imipenem/Cilastatin (Imp/Cln)</value>
+          </text>
+          <text id="static_instance-drug_method-5">
+            <value>5) Kisi aur tareeqay se di gayee</value>
+          </text>
+          <text id="static_instance-drug_list-11">
+            <value>Terizidone (Trd)</value>
+          </text>
+          <text id="static_instance-drug_method-4">
+            <value>4) Kuch khuraak mareez ne khud (SAT ke tehet) li, aur kuch khuraak DOT ke tehet di gayee</value>
+          </text>
+          <text id="static_instance-drug_unit-6">
+            <value>6) sheeshe</value>
+          </text>
+          <text id="static_instance-drug_display-12">
+            <value>Para-aminosalicylic acid (PAS)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/other_deliverymethod:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event/yes:label">
+            <value>1) Haan</value>
+          </text>
+          <text id="/daily_treatment_monitoring/lfx:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/no_action:label">
+            <value>4) Kisi qism ke fori iaqdamat ki zaroorat nahi</value>
+          </text>
+          <text id="static_instance-strength-0">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/sat:label">
+            <value>3) Mareez ne khud (SAT ke tehet) li</value>
+          </text>
+          <text id="static_instance-drug_display-17">
+            <value>Clofazimine (Cfz)</value>
+          </text>
+          <text id="static_instance-drug_display-19">
+            <value>Amoxicillin/Clavulanate (Amx/Clv)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/note_tx_day_number:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/adverse_event:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_index:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-8">
+            <value>Prothionamide (Pto)</value>
+          </text>
+          <text id="static_instance-drug_display-21">
+            <value>Meropenem (Mpm)</value>
+          </text>
+          <text id="static_instance-drug_display-20">
+            <value>Clarythromycin (Clr)</value>
+          </text>
+          <text id="static_instance-drug_list-13">
+            <value>Para-aminosalicylic acid - sodium (PAS-Na)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/missed_dose_amount_note:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-4">
+            <value>Kanamycin (Km)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_date_tx_start:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_unit-0">
+            <value>1) mili gram</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_strength:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_id:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-9">
+            <value>-</value>
+          </text>
+          <text id="static_instance-yes_no2-0">
+            <value>1) Haan</value>
+          </text>
+          <text id="static_instance-yes_no2-2">
+            <value>3) Yahaan laagoo nahin</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/subscriberid:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/no:label">
+            <value>2) Nahin</value>
+          </text>
+          <text id="static_instance-drug_display-5">
+            <value>Capreomycin (Cm)</value>
+          </text>
+          <text id="static_instance-drug_display-10">
+            <value>Cycloserine (Cs)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pas_na:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-15">
+            <value>Delamanid (Dlm)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/amx_clv:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-16">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_unit-5">
+            <value>5) scoops</value>
+          </text>
+          <text id="static_instance-strength-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-0">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-16">
+            <value>Linezolid (Lzd)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pto:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-7">
+            <value>Moxifloxacin (Mfx)</value>
+          </text>
+          <text id="static_instance-drug_method-2">
+            <value>2) Mareez ke ghar pe DOT ke tehet di gayee</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/dtm_date_note:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-6">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/n/a:label">
+            <value>3) Yahaan laagoo nahin</value>
+          </text>
+          <text id="/daily_treatment_monitoring/phonenumber:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-16">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/regimen_number:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-19">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-11">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-4">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-17">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-18">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/h:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_gender:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-19">
+            <value>Amoxicillin/Clavulanate (Amx/Clv)</value>
+          </text>
+          <text id="static_instance-drug_unit-2">
+            <value>capsules</value>
+          </text>
+          <text id="static_instance-strength-14">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-5">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/other:label">
+            <value>5) Kisi aur tareeqay se di gayee</value>
+          </text>
+          <text id="/daily_treatment_monitoring/cs:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event/yes:label">
+            <value>1) Haan</value>
+          </text>
+          <text id="static_instance-formulation-6">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/pas:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-0">
+            <value>Isoniazid (H)</value>
+          </text>
+          <text id="static_instance-drug_list-6">
+            <value>Levofloxacin (Lfx)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/provider_location_id:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/clr:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-7">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/deviceid:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-8">
+            <value>Prothionamide (Pto)</value>
+          </text>
+          <text id="static_instance-adverse_event-0">
+            <value>1) Aglay din tibbi muaina kiya jayega</value>
+          </text>
+          <text id="static_instance-formulation-8">
+            <value>-</value>
+          </text>
+          <text id="static_instance-formulation-5">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/identifier:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_display-6">
+            <value>Levofloxacin (Lfx)</value>
+          </text>
+          <text id="/daily_treatment_monitoring/existing_full_name:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-12">
+            <value>-</value>
+          </text>
+          <text id="static_instance-strength-15">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_list-1">
+            <value>Ethambutol (E)</value>
+          </text>
+          <text id="static_instance-drug_list-5">
+            <value>Capreomycin (Cm)</value>
+          </text>
+          <text id="static_instance-adverse_event-2">
+            <value>3) TB ke doctor se phone pe mashwara kar ke mareez ko hospital main daakhil kara diya</value>
+          </text>
+          <text id="static_instance-adverse_event-1">
+            <value>2) TB ke doctor se phone pe mashwara kar ke zaroori adwiyat lene ki hidayat de di</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/gender:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/gps:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_BI/full_name:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-drug_unit-1">
+            <value>2) gram</value>
+          </text>
+          <text id="/daily_treatment_monitoring/z:label">
+            <value>-</value>
+          </text>
+          <text id="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_name:label">
+            <value>-</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <daily_treatment_monitoring encounter_type="Daily Treatment Monitoring" id="daily_treatment_monitoring">
+          <existing_identifier>1212121</existing_identifier>
+          <existing_date_tx_start>2017-07-01</existing_date_tx_start>
+          <existing_full_name>hghg</existing_full_name>
+          <existing_gender>m</existing_gender>
+          <existing_prescription>h|e|z</existing_prescription>
+          <h>200</h>
+          <e>400</e>
+          <z>300</z>
+          <am/>
+          <km/>
+          <cm/>
+          <lfx/>
+          <mfx/>
+          <pto/>
+          <eto/>
+          <cs/>
+          <trd/>
+          <pas/>
+          <pas_na/>
+          <bdq/>
+          <dlm/>
+          <lzd/>
+          <cfz/>
+          <imp_cln/>
+          <amx_clv/>
+          <clr/>
+          <mpm/>
+          <provider_location_id openmrs_entity="encounter" openmrs_entity_id="location_id"/>
+          <start/>
+          <end/>
+          <dtm_date openmrs_entity="encounter" openmrs_entity_id="encounter_date"/>
+          <deviceid/>
+          <subscriberid/>
+          <simserial/>
+          <phonenumber/>
+          <Section_BI>
+            <gps openmrs_entity="concept" openmrs_entity_id="1d7179e8-0195-4869-8a96-04a2ddddd3d3"/>
+            <full_name/>
+            <gender/>
+            <identifier/>
+            <dtm_date_note/>
+            <date_tx_start/>
+            <tx_day_number openmrs_entity="concept" openmrs_entity_id="98c2c5ae-2e05-49bd-bbc2-e2f624192643"/>
+            <note_tx_day_number/>
+          </Section_BI>
+          <Section_DM>
+            <drug_repeat jr:template="" openmrs_entity="encounter" openmrs_entity_id="DTM Drug Administration">
+              <drug_name openmrs_entity="concept" openmrs_entity_id="a6991695-5bf9-4cd9-96c6-9dd5268074c3"/>
+              <drug_display_name/>
+              <drug_index/>
+              <drug_id/>
+              <prescribed_dose_mg/>
+              <prescribed_dose_strength openmrs_entity="concept" openmrs_entity_id="a839f3c1-6823-4065-89fb-6f703bc2c757"/>
+              <prescribed_dose_unit openmrs_entity="concept" openmrs_entity_id="8b506597-edd0-4d56-890d-7bcc9dc29aa7"/>
+              <prescribed_dose/>
+              <dosage>
+                <prescribed_dose_mg_note/>
+                <prescribed_dose_note/>
+                <administered_dose openmrs_entity="concept" openmrs_entity_id="43f51bb2-cf22-44f4-9f8a-13d0e6fc8e32"/>
+              </dosage>
+              <treatment>
+                <missed_dose_amount openmrs_entity="concept" openmrs_entity_id="b9b17093-9df2-4107-a6c1-a20eafea130a"/>
+                <dot_rate openmrs_entity="concept" openmrs_entity_id="bfe5c1f3-7a59-49ad-9e88-a722c81bd17d"/>
+                <drug_administration openmrs_entity="concept" openmrs_entity_id="6c86a203-7e4c-4d6a-912f-07132d8a38d3"/>
+                <missed_dose_amount_note/>
+                <dot_rate_note/>
+                <drug_administration_note/>
+                <method_drug_administration openmrs_entity="concept" openmrs_entity_id="dc17b32a-5bc6-462a-adfd-e8e3d839b850"/>
+              </treatment>
+              <other_deliverymethod/>
+              <fully_obs_dose/>
+              <regimen_number>1</regimen_number>
+            </drug_repeat>
+            <fully_obs_doses/>
+            <prescription_regimens/>
+            <DOTRx openmrs_entity="concept" openmrs_entity_id="28872150-ff31-4fb5-a7bf-93353a6f16ba"/>
+          </Section_DM>
+          <Section_AE>
+            <adverse_event openmrs_entity="concept" openmrs_entity_id="e503ae6d-02ef-4603-a486-7643baebcb1b"/>
+            <serious_adverse_event openmrs_entity="concept" openmrs_entity_id="8d80bcfa-3c35-4e7e-a941-e6fc67050bfc"/>
+            <serious_adverse_event_referral openmrs_entity="concept" openmrs_entity_id="3d986a2a-187a-40bb-85c7-45def1ef491b"/>
+            <nonserious_adverse_event_action openmrs_entity="concept" openmrs_entity_id="9b7c52a1-e1c6-497a-93db-70faf03314a0"/>
+          </Section_AE>
+          <meta>
+            <instanceID/>
+          </meta>
+        </daily_treatment_monitoring>
+      </instance>
+      <instance id="formulation">
+        <root>
+          <item>
+            <itextId>static_instance-formulation-0</itextId>
+            <name>tablet</name>
+            <drug>h</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-1</itextId>
+            <name>tablet</name>
+            <drug>e</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-2</itextId>
+            <name>tablet</name>
+            <drug>z</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-3</itextId>
+            <name>vial</name>
+            <drug>am</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-4</itextId>
+            <name>vial</name>
+            <drug>km</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-5</itextId>
+            <name>vial</name>
+            <drug>cm</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-6</itextId>
+            <name>tablet</name>
+            <drug>lfx</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-7</itextId>
+            <name>tablet</name>
+            <drug>mfx</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-8</itextId>
+            <name>na</name>
+            <drug>pto</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-9</itextId>
+            <name>tablet</name>
+            <drug>eto</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-10</itextId>
+            <name>capsule</name>
+            <drug>cs</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-11</itextId>
+            <name>na</name>
+            <drug>trd</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-12</itextId>
+            <name>sachet</name>
+            <drug>pas</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-13</itextId>
+            <name>scoop</name>
+            <drug>pas_na</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-14</itextId>
+            <name>tablet</name>
+            <drug>bdq</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-15</itextId>
+            <name>tablet</name>
+            <drug>dlm</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-16</itextId>
+            <name>tablet</name>
+            <drug>lzd</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-17</itextId>
+            <name>capsule</name>
+            <drug>cfz</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-18</itextId>
+            <name>na</name>
+            <drug>imp_cln</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-19</itextId>
+            <name>tablet</name>
+            <drug>amx_clv</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-20</itextId>
+            <name>tablet</name>
+            <drug>clr</drug>
+          </item>
+          <item>
+            <itextId>static_instance-formulation-21</itextId>
+            <name>na</name>
+            <drug>mpm</drug>
+          </item>
+        </root>
+      </instance>
+      <instance id="adverse_event">
+        <root>
+          <item>
+            <itextId>static_instance-adverse_event-0</itextId>
+            <name>followup_next_day</name>
+          </item>
+          <item>
+            <itextId>static_instance-adverse_event-1</itextId>
+            <name>advise_medication</name>
+          </item>
+          <item>
+            <itextId>static_instance-adverse_event-2</itextId>
+            <name>advise_hospital</name>
+          </item>
+          <item>
+            <itextId>static_instance-adverse_event-3</itextId>
+            <name>no_action</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="drug_list">
+        <root>
+          <item>
+            <itextId>static_instance-drug_list-0</itextId>
+            <name>h</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-1</itextId>
+            <name>e</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-2</itextId>
+            <name>z</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-3</itextId>
+            <name>am</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-4</itextId>
+            <name>km</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-5</itextId>
+            <name>cm</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-6</itextId>
+            <name>lfx</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-7</itextId>
+            <name>mfx</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-8</itextId>
+            <name>pto</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-9</itextId>
+            <name>eto</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-10</itextId>
+            <name>cs</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-11</itextId>
+            <name>trd</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-12</itextId>
+            <name>pas</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-13</itextId>
+            <name>pas_na</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-14</itextId>
+            <name>bdq</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-15</itextId>
+            <name>dlm</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-16</itextId>
+            <name>lzd</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-17</itextId>
+            <name>cfz</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-18</itextId>
+            <name>imp_cln</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-19</itextId>
+            <name>amx_clv</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-20</itextId>
+            <name>clr</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_list-21</itextId>
+            <name>mpm</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="strength">
+        <root>
+          <item>
+            <itextId>static_instance-strength-0</itextId>
+            <name>100</name>
+            <drug>h</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-1</itextId>
+            <name>100</name>
+            <drug>e</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-2</itextId>
+            <name>400</name>
+            <drug>z</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-3</itextId>
+            <name>500</name>
+            <drug>am</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-4</itextId>
+            <name>1000</name>
+            <drug>km</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-5</itextId>
+            <name>1000</name>
+            <drug>cm</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-6</itextId>
+            <name>250</name>
+            <drug>lfx</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-7</itextId>
+            <name>400</name>
+            <drug>mfx</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-8</itextId>
+            <name>0</name>
+            <drug>pto</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-9</itextId>
+            <name>250</name>
+            <drug>eto</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-10</itextId>
+            <name>250</name>
+            <drug>cs</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-11</itextId>
+            <name>0</name>
+            <drug>trd</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-12</itextId>
+            <name>4000</name>
+            <drug>pas</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-13</itextId>
+            <name>4600</name>
+            <drug>pas_na</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-14</itextId>
+            <name>100</name>
+            <drug>bdq</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-15</itextId>
+            <name>50</name>
+            <drug>dlm</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-16</itextId>
+            <name>600</name>
+            <drug>lzd</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-17</itextId>
+            <name>50</name>
+            <drug>cfz</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-18</itextId>
+            <name>0</name>
+            <drug>imp_cln</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-19</itextId>
+            <name>625</name>
+            <drug>amx_clv</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-20</itextId>
+            <name>500</name>
+            <drug>clr</drug>
+          </item>
+          <item>
+            <itextId>static_instance-strength-21</itextId>
+            <name>0</name>
+            <drug>mpm</drug>
+          </item>
+        </root>
+      </instance>
+      <instance id="drug_method">
+        <root>
+          <item>
+            <itextId>static_instance-drug_method-0</itextId>
+            <name>inpatient</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_method-1</itextId>
+            <name>outpatient_facility</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_method-2</itextId>
+            <name>outpatient_community</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_method-3</itextId>
+            <name>sat</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_method-4</itextId>
+            <name>sat_dot</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_method-5</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="drug_display">
+        <root>
+          <item>
+            <itextId>static_instance-drug_display-0</itextId>
+            <drug>h</drug>
+            <name>Isoniazid_H</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-1</itextId>
+            <drug>e</drug>
+            <name>Ethambutol_E</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-2</itextId>
+            <drug>z</drug>
+            <name>Pyrazinamide_Z</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-3</itextId>
+            <drug>am</drug>
+            <name>Amikacin_Am</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-4</itextId>
+            <drug>km</drug>
+            <name>Kanamycin_Km</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-5</itextId>
+            <drug>cm</drug>
+            <name>Capreomycin_Cm</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-6</itextId>
+            <drug>lfx</drug>
+            <name>Levofloxacin_Lfx</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-7</itextId>
+            <drug>mfx</drug>
+            <name>Moxifloxacin_Mfx</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-8</itextId>
+            <drug>pto</drug>
+            <name>Prothionamide_Pto</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-9</itextId>
+            <drug>eto</drug>
+            <name>Ethionamide_Eto</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-10</itextId>
+            <drug>cs</drug>
+            <name>Cycloserine_Cs</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-11</itextId>
+            <drug>trd</drug>
+            <name>Terizidone_Trd</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-12</itextId>
+            <drug>pas</drug>
+            <name>Para_aminosalicylic_acid_PAS</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-13</itextId>
+            <drug>pas_na</drug>
+            <name>Para_aminosalicylic_acid_sodium_PAS-Na</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-14</itextId>
+            <drug>bdq</drug>
+            <name>Bedaquiline_Bdq</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-15</itextId>
+            <drug>dlm</drug>
+            <name>Delamanid_Dlm</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-16</itextId>
+            <drug>lzd</drug>
+            <name>Linezolid_Lzd</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-17</itextId>
+            <drug>cfz</drug>
+            <name>Clofazimine_Cfz</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-18</itextId>
+            <drug>imp_cln</drug>
+            <name>Imipenem_Cilastatin_Imp_Cln</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-19</itextId>
+            <drug>amx_clv</drug>
+            <name>Amoxicillin_Clavulanate_Amx_Clv</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-20</itextId>
+            <drug>clr</drug>
+            <name>Clarythromycin_Clr</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_display-21</itextId>
+            <drug>mpm</drug>
+            <name>Meropenem_Mpm</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no2">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no2-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no2-1</itextId>
+            <name>no</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no2-2</itextId>
+            <name>n/a</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="drug_unit">
+        <root>
+          <item>
+            <itextId>static_instance-drug_unit-0</itextId>
+            <name>mg</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_unit-1</itextId>
+            <name>gram</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_unit-2</itextId>
+            <name>capsule</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_unit-3</itextId>
+            <name>tablet</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_unit-4</itextId>
+            <name>sachet</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_unit-5</itextId>
+            <name>scoop</name>
+          </item>
+          <item>
+            <itextId>static_instance-drug_unit-6</itextId>
+            <name>vial</name>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/daily_treatment_monitoring/existing_identifier" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/existing_date_tx_start" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/existing_full_name" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/existing_gender" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/existing_prescription" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/h" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/e" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/z" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/am" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/km" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/cm" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/lfx" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/mfx" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/pto" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/eto" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/cs" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/trd" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/pas" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/pas_na" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/bdq" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/dlm" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/lzd" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/cfz" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/imp_cln" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/amx_clv" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/clr" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/mpm" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/provider_location_id" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/daily_treatment_monitoring/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/daily_treatment_monitoring/end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/daily_treatment_monitoring/dtm_date" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/daily_treatment_monitoring/deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/daily_treatment_monitoring/subscriberid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/daily_treatment_monitoring/simserial" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/daily_treatment_monitoring/phonenumber" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_BI/gps" type="geopoint"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_BI/full_name" readonly="true()" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_BI/gender" readonly="true()" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_BI/identifier" readonly="true()" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_BI/dtm_date_note" readonly="true()" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_BI/date_tx_start" readonly="true()" type="string"/>
+      <bind calculate="date( /daily_treatment_monitoring/dtm_date )-date( /daily_treatment_monitoring/existing_date_tx_start )" nodeset="/daily_treatment_monitoring/Section_BI/tx_day_number" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_BI/note_tx_day_number" readonly="true()" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_name" required="true()" type="select1"/>
+      <bind calculate="jr:choice-name( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_name , ' /daily_treatment_monitoring/Section_DM/drug_repeat/drug_name ')" nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_display_name" type="string"/>
+      <bind calculate="position(..)" nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_index" type="string"/>
+      <bind calculate="indexed-repeat( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_name ,  /daily_treatment_monitoring/Section_DM/drug_repeat ,  /daily_treatment_monitoring/Section_DM/drug_repeat/drug_index )" nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_id" type="string"/>
+      <bind calculate="if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'h',  /daily_treatment_monitoring/h ,
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'e',  /daily_treatment_monitoring/e , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'z',  /daily_treatment_monitoring/z , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'am',  /daily_treatment_monitoring/am , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'km',  /daily_treatment_monitoring/km , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'cm',  /daily_treatment_monitoring/cm , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'lfx',  /daily_treatment_monitoring/lfx , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'mfx',  /daily_treatment_monitoring/mfx , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'pto',  /daily_treatment_monitoring/pto , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'eto',  /daily_treatment_monitoring/eto , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'cs',  /daily_treatment_monitoring/cs , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'trd',  /daily_treatment_monitoring/trd , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'pas',  /daily_treatment_monitoring/pas , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'pas_na',  /daily_treatment_monitoring/pas_na , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'bdq',  /daily_treatment_monitoring/bdq , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'dlm',  /daily_treatment_monitoring/dlm , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'lzd',  /daily_treatment_monitoring/lzd , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'cfz',  /daily_treatment_monitoring/cfz , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'imp_cln',  /daily_treatment_monitoring/imp_cln , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'amx_clv',  /daily_treatment_monitoring/amx_clv , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'clr',  /daily_treatment_monitoring/clr , 
+ if( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_id  = 'mpm',  /daily_treatment_monitoring/mpm , 'na'))))))))))))))))))))))" nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_mg" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_strength" required="true()" type="select1"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_unit" required="true()" type="select1"/>
+      <bind calculate="round( /daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_mg  div  /daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_strength , 2)" nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_mg_note" readonly="true()" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_note" readonly="true()" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/administered_dose" required="true()" type="decimal"/>
+      <bind calculate=" /daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose - /daily_treatment_monitoring/Section_DM/drug_repeat/dosage/administered_dose " nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/missed_dose_amount" type="string"/>
+      <bind calculate=" /daily_treatment_monitoring/Section_DM/drug_repeat/dosage/administered_dose  div  /daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose " nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate" type="string"/>
+      <bind calculate="if( /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate &gt;=1, 'Fully observed prescribed dose', if( /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate =0,'Missed prescribed dose','Incomplete prescribed dose'))" nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/missed_dose_amount_note" readonly="true()" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate_note" readonly="true()" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration_note" readonly="true()" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration" relevant=" /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration ='Fully observed prescribed dose' or  /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration ='Incomplete prescribed dose'" required="true()" type="select"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/other_deliverymethod" relevant="selected( /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration ,'other') and ( /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration ='Fully observed prescribed dose' or  /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration ='Incomplete prescribed dose')" required="true()" type="string"/>
+      <bind calculate="if(( /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration = 'Fully observed prescribed dose' or  /daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration ='Incomplete prescribed dose'), 1, 0)" nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/fully_obs_dose" type="string"/>
+      <bind calculate="0+1" nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat/regimen_number" type="string"/>
+      <bind calculate="sum( /daily_treatment_monitoring/Section_DM/drug_repeat/fully_obs_dose )" nodeset="/daily_treatment_monitoring/Section_DM/fully_obs_doses" type="string"/>
+      <bind calculate="sum( /daily_treatment_monitoring/Section_DM/drug_repeat/regimen_number )" nodeset="/daily_treatment_monitoring/Section_DM/prescription_regimens" type="string"/>
+      <bind calculate="if( /daily_treatment_monitoring/Section_DM/fully_obs_doses = /daily_treatment_monitoring/Section_DM/prescription_regimens , 'Fully observed Day', if( /daily_treatment_monitoring/Section_DM/fully_obs_doses =0,'Missed prescribed day','Incomplete Day'))" nodeset="/daily_treatment_monitoring/Section_DM/DOTRx" type="string"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_AE/adverse_event" required="true()" type="select1"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_AE/serious_adverse_event" relevant="selected( /daily_treatment_monitoring/Section_AE/adverse_event , 'yes')" required="true()" type="select1"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral" relevant="selected( /daily_treatment_monitoring/Section_AE/adverse_event , 'yes') and selected( /daily_treatment_monitoring/Section_AE/serious_adverse_event , 'yes')" required="true()" type="select1"/>
+      <bind nodeset="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action" relevant="selected( /daily_treatment_monitoring/Section_AE/adverse_event , 'yes') and selected( /daily_treatment_monitoring/Section_AE/serious_adverse_event , 'no')" required="true()" type="select1"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/daily_treatment_monitoring/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/daily_treatment_monitoring/Section_BI">
+      <label ref="jr:itext('/daily_treatment_monitoring/Section_BI:label')"/>
+      <input ref="/daily_treatment_monitoring/Section_BI/gps">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_BI/gps:label')"/>
+      </input>
+      <input ref="/daily_treatment_monitoring/Section_BI/full_name">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_BI/full_name:label')"/>
+      </input>
+      <input ref="/daily_treatment_monitoring/Section_BI/gender">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_BI/gender:label')"/>
+      </input>
+      <input ref="/daily_treatment_monitoring/Section_BI/identifier">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_BI/identifier:label')"/>
+      </input>
+      <input ref="/daily_treatment_monitoring/Section_BI/dtm_date_note">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_BI/dtm_date_note:label')"/>
+      </input>
+      <input ref="/daily_treatment_monitoring/Section_BI/date_tx_start">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_BI/date_tx_start:label')"/>
+      </input>
+      <input ref="/daily_treatment_monitoring/Section_BI/note_tx_day_number">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_BI/note_tx_day_number:label')"/>
+      </input>
+    </group>
+    <group ref="/daily_treatment_monitoring/Section_DM">
+      <label ref="jr:itext('/daily_treatment_monitoring/Section_DM:label')"/>
+      <group ref="/daily_treatment_monitoring/Section_DM/drug_repeat">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat:label')"/>
+        <repeat nodeset="/daily_treatment_monitoring/Section_DM/drug_repeat">
+          <select1 appearance="minimal" ref="/daily_treatment_monitoring/Section_DM/drug_repeat/drug_name">
+            <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/drug_name:label')"/>
+            <itemset nodeset="instance('drug_list')/root/item[regex(name,concat('^(', /daily_treatment_monitoring/existing_prescription ,')$'))]">
+              <value ref="name"/>
+              <label ref="jr:itext(itextId)"/>
+            </itemset>
+          </select1>
+          <select1 ref="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_strength">
+            <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_strength:label')"/>
+            <itemset nodeset="instance('strength')/root/item[drug=indexed-repeat( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_name ,  /daily_treatment_monitoring/Section_DM/drug_repeat , position(..))]">
+              <value ref="name"/>
+              <label ref="jr:itext(itextId)"/>
+            </itemset>
+          </select1>
+          <select1 ref="/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_unit">
+            <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/prescribed_dose_unit:label')"/>
+            <itemset nodeset="instance('formulation')/root/item[drug=indexed-repeat( /daily_treatment_monitoring/Section_DM/drug_repeat/drug_name ,  /daily_treatment_monitoring/Section_DM/drug_repeat , position(..))]">
+              <value ref="name"/>
+              <label ref="jr:itext(itextId)"/>
+            </itemset>
+          </select1>
+          <group appearance="field-list" ref="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage">
+            <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/dosage:label')"/>
+            <input ref="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_mg_note">
+              <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_mg_note:label')"/>
+            </input>
+            <input ref="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_note">
+              <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/prescribed_dose_note:label')"/>
+            </input>
+            <input ref="/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/administered_dose">
+              <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/dosage/administered_dose:label')"/>
+            </input>
+          </group>
+          <group appearance="field-list" ref="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment">
+            <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment:label')"/>
+            <input ref="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/missed_dose_amount_note">
+              <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/missed_dose_amount_note:label')"/>
+            </input>
+            <input ref="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate_note">
+              <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/dot_rate_note:label')"/>
+            </input>
+            <input ref="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration_note">
+              <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/drug_administration_note:label')"/>
+            </input>
+            <select ref="/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration">
+              <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration:label')"/>
+              <item>
+                <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/inpatient:label')"/>
+                <value>inpatient</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/outpatient_facility:label')"/>
+                <value>outpatient_facility</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/outpatient_community:label')"/>
+                <value>outpatient_community</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/sat:label')"/>
+                <value>sat</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/sat_dot:label')"/>
+                <value>sat_dot</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/treatment/method_drug_administration/other:label')"/>
+                <value>other</value>
+              </item>
+            </select>
+          </group>
+          <input ref="/daily_treatment_monitoring/Section_DM/drug_repeat/other_deliverymethod">
+            <label ref="jr:itext('/daily_treatment_monitoring/Section_DM/drug_repeat/other_deliverymethod:label')"/>
+          </input>
+        </repeat>
+      </group>
+    </group>
+    <group ref="/daily_treatment_monitoring/Section_AE">
+      <label ref="jr:itext('/daily_treatment_monitoring/Section_AE:label')"/>
+      <select1 ref="/daily_treatment_monitoring/Section_AE/adverse_event">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/adverse_event:label')"/>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/adverse_event/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/adverse_event/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/daily_treatment_monitoring/Section_AE/serious_adverse_event">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/serious_adverse_event:label')"/>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/serious_adverse_event/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/serious_adverse_event/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral:label')"/>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/no:label')"/>
+          <value>no</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/serious_adverse_event_referral/n/a:label')"/>
+          <value>n/a</value>
+        </item>
+      </select1>
+      <select1 ref="/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action">
+        <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action:label')"/>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/followup_next_day:label')"/>
+          <value>followup_next_day</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/advise_medication:label')"/>
+          <value>advise_medication</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/advise_hospital:label')"/>
+          <value>advise_hospital</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/daily_treatment_monitoring/Section_AE/nonserious_adverse_event_action/no_action:label')"/>
+          <value>no_action</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>

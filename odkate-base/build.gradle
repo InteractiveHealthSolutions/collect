@@ -1,4 +1,16 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.google.gms:google-services:3.0.0'
+    }
+}
 
 android {
     compileSdkVersion 25
@@ -8,11 +20,10 @@ android {
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
         multiDexEnabled true
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
     buildTypes {
         release {
@@ -31,4 +42,41 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId 'com.ihs.odkate'
+            //You can either define these here or get them from project conf elsewhere
+            artifactId 'odkate-base'
+            version '1.0.0'
+            artifact "$buildDir/outputs/aar/odkate-base-release.aar" //aar artifact you want to publish
+
+            //generate pom nodes for dependencies
+            pom.withXml {
+                def dependenciesNode = asNode().appendNode('dependencies')
+                configurations.compile.allDependencies.each { dependency ->
+                    if (dependency.group && dependency.name) {
+                        def grp = dependency.group
+                        def ver = dependency.version
+                        if (dependency.name == 'collect_app'){
+                            grp = rootProject.odkateGroupId
+                            ver = rootProject.odkVersion
+                        }
+                        def dependencyNode = dependenciesNode.appendNode('dependency')
+                        dependencyNode.appendNode('groupId', grp)
+                        dependencyNode.appendNode('artifactId', dependency.name)
+                        dependencyNode.appendNode('version', ver)
+                    }
+                }
+            }
+        }
+    }
+    //publish to filesystem repo
+    repositories{
+        maven {
+            url "$buildDir/repo"
+        }
+    }
 }
