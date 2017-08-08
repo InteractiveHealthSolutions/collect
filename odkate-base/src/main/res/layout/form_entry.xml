@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2009 University of Washington
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License. You may obtain a copy of
+the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations under
+the License.
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Toolbar -->
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include
+        layout="@layout/toolbar_action_bar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"/>
+
+    <ScrollView
+        android:id="@+id/main_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:id="@+id/listviewlo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/fragment"
+                class="com.ihs.odkate.base.widgets.FormHierarchyFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/questionholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/buttonholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingBottom="0dip"
+        android:paddingEnd="4dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:paddingStart="4dip"
+        android:paddingTop="4dip">
+
+        <ImageButton
+            android:id="@+id/form_back_button"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:contentDescription="@string/form_backward"
+            android:src="@drawable/ic_menu_backward"
+            android:textSize="12sp"/>
+
+        <ImageButton
+            android:id="@+id/form_forward_button"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:contentDescription="@string/form_forward"
+            android:src="@drawable/ic_menu_forward"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -13,16 +13,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ihs.odkate.base.FormUtils;
+import com.ihs.odkate.base.utils.FormSubmissionUtils;
 import com.ihs.odkate.base.Odkate;
-import com.ihs.odkate.base.OdkateUtils;
 
 import org.joda.time.DateTime;
 import org.odk.collect.android.application.Collect;
@@ -31,12 +28,12 @@ import org.odk.collect.android.utilities.FileUtils;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.io.FilenameFilter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
-import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -98,7 +95,12 @@ public class MainActivity extends AppCompatActivity {
         m_JobList = new ArrayList<>();
         m_JobListView = (ListView) findViewById(R.id.xform_listview);
         try {
-            m_Filename = getAssets().list("xforms");
+            m_Filename = new File(Collect.FORMS_PATH).list(new FilenameFilter() {
+                @Override
+                public boolean accept(File file, String s) {
+                    return s.toLowerCase().endsWith(".xml");
+                }
+            });
 
             if (m_Filename != null && (null != m_JobList)) {
 
@@ -190,8 +192,8 @@ public class MainActivity extends AppCompatActivity {
                         byte[] fileBytes = FileUtils.getFileAsBytes(instance);
                         Log.v(getClass().getName(), new String(fileBytes));
                         // do something with data
-                        String submission = FormUtils.getInstance(activity).generateFormSubmisionFromXMLString(
-                                new String[]{}, data.getData(), activity).toString().replace("\\/", "/");
+                        String submission = new FormSubmissionUtils(activity).generateFormSubmisionFromXMLString(
+                                new String[]{}, data.getData()).toString().replace("\\/", "/");
                         Log.v(getClass().getName(), submission);
                         FileWriter f = new FileWriter(new File(Collect.INSTANCES_PATH+"/submission"+ DateTime.now().toString("yyyy-MM-ddHHmmss")+".json"), false);
                         f.write(submission);

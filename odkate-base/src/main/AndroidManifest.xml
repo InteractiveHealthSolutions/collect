@@ -11,6 +11,13 @@
             android:theme="@android:style/Theme.Dialog"
             tools:node="remove">
         </activity>
+
+        <activity
+            android:name="org.odk.collect.android.activities.FormEntryActivity"
+            android:theme="@style/Theme.AppCompat.Light.DataEntryForm"
+            tools:replace="android:theme"
+            tools:node="merge">
+        </activity>
     </application>
 
 </manifest>

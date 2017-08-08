@@ -1504,7 +1504,7 @@ public class FormEntryActivity extends AppCompatActivity implements AnimationLis
         }
 
         RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(
-                LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
+                LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 
         // adjust which view is in the layout container...
         staleView = currentView;

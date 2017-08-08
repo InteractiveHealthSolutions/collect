@@ -2332,7 +2332,7 @@
         </translation>
       </itext>
       <instance>
-        <daily_treatment_monitoring encounter_type="Daily Treatment Monitoring" id="daily_treatment_monitoring">
+        <daily_treatment_monitoring bind_type="drugs" encounter_type="Daily Treatment Monitoring" id="daily_treatment_monitoring">
           <existing_identifier>1212121</existing_identifier>
           <existing_date_tx_start>2017-07-01</existing_date_tx_start>
           <existing_full_name>hghg</existing_full_name>
@@ -2379,7 +2379,7 @@
             <note_tx_day_number/>
           </Section_BI>
           <Section_DM>
-            <drug_repeat jr:template="" openmrs_entity="encounter" openmrs_entity_id="DTM Drug Administration">
+            <drug_repeat bind_type="drug_admin" jr:template="" openmrs_entity="encounter" openmrs_entity_id="DTM Drug Administration">
               <drug_name openmrs_entity="concept" openmrs_entity_id="a6991695-5bf9-4cd9-96c6-9dd5268074c3"/>
               <drug_display_name/>
               <drug_index/>

@@ -25,14 +25,12 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.util.HashMap;
 import java.util.Map;
 
 import timber.log.Timber;
 
-import static com.ihs.odkate.base.OdkateUtils.copyAssetForms;
-import static com.ihs.odkate.base.OdkateUtils.copyAssetForms;
-import static com.ihs.odkate.base.OdkateUtils.copyXFormToBin;
+import static com.ihs.odkate.base.utils.OdkateUtils.copyAssetForms;
+import static com.ihs.odkate.base.utils.OdkateUtils.copyXFormToBin;
 
 /**
  * Created by Maimoona on 7/14/2017.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_activated="false" android:drawable="@android:color/white" android:visibility="gone"/>
+    <item android:state_enabled="false" android:drawable="@android:color/transparent"/>
+    <item android:drawable="@android:drawable/edit_text"/>
+</selector>

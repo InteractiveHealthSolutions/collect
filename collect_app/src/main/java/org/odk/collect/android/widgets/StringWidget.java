@@ -20,6 +20,7 @@ import android.text.Selection;
 import android.text.TextWatcher;
 import android.text.method.TextKeyListener;
 import android.text.method.TextKeyListener.Capitalize;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -104,6 +105,13 @@ public class StringWidget extends QuestionWidget {
         if (readOnly) {
             answer.setEnabled(false);
             answer.setFocusable(false);
+
+            if (s == null || s.trim().isEmpty()){
+                Log.v(getClass().getName(), "NULL ? EMPTY TEXT");
+
+                answer.setActivated(false);
+                answer.setVisibility(GONE);
+            }
         }
 
         addAnswerView(answer);
